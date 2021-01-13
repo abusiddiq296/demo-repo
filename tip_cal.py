@@ -1,0 +1,8 @@
+total_bill=int(input("total bill amount  :"))
+tip_percentage=int(input("tip percentage  :"))
+no_of_people=int(input("no.of.people  :"))
+print("CALCULATING...!")
+total_tip=((total_bill/100)*25)
+tip_per_server=(total_tip/no_of_people)
+print(total_tip)
+print(tip_per_server)
